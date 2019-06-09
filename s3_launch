@@ -1,0 +1,9 @@
+- hosts: localhost
+  vars_files:
+    - aws_keys.yml
+  tasks:
+        - s3_bucket:
+                aws_access_key: "{{ aws_access_key }}"
+                aws_secret_key: "{{ aws_secret_key }}"
+                name: a unique name worldwide
+                region: ap-south-1
