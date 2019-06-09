@@ -1,0 +1,1 @@
+# ansible-manage-s3-instance
